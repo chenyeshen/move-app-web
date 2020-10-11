@@ -1,0 +1,11 @@
+.poster-wapper{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		
+	}
+.post{
+	    margin: 10upx;
+		width: 230upx;
+		height: 270upx;
+	}

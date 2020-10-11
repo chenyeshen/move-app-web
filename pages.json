@@ -1,0 +1,100 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "电影预告APP",
+				"app-plus": {
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/searche/searche",
+			"style": {
+				"navigationBarTitleText": "预告搜索"
+				
+			}
+			
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "账号管理"
+			}
+		},{
+            "path" : "pages/move/move",
+            "style" : {
+				"app-plus": {
+					"navigationBarTitleText": "封面",
+					"titleNView": {
+						"type":"transparent",
+						"buttons":[{
+							"type":"share"
+						}]
+					}
+					
+				}
+			}
+        }
+        ,{
+            "path" : "pages/cover/cover",
+            "style" : {
+				"navigationBarTitleText": "封面"
+				
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	    "iconPath": "static/home.png",
+	     "selectedIconPath": "static/homes.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/searche/searche",
+	        "iconPath": "static/sou.png",
+	         "selectedIconPath": "./static/sous.png",
+	        "text": "搜索"
+	    },
+		{
+		    "pagePath": "pages/user/user",
+		  "iconPath": "static/me.png",
+		   "selectedIconPath": "static/mes.png",
+		    "text": "我的"
+		}]
+	}
+	
+
+}

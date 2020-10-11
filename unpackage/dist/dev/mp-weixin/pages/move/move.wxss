@@ -1,0 +1,91 @@
+.move-detail{
+	width: 100%;
+	height: 440rpx;
+}
+.single-move{
+	width: 100%;
+	height: 440rpx;
+}
+.guess-u-like{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+}
+.move-like-single{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		width: 100%;
+		border-bottom: solid 1rpx #b9b9b9;
+}
+.post-like{
+		width: 240rpx;
+		height: 320rpx;
+		-webkit-border-radius: 3%;
+		        border-radius: 3%;
+		padding: 20rpx;
+}
+.move-dec{
+		width: 540rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+}
+.move-title{
+		font-size: 24px;
+		color: #141414;
+		white-space: nowrap;
+		overflow: hidden;
+		font-weight: bold;
+		text-overflow: ellipsis;
+		margin: 10rpx;
+}
+.move-rate{
+		margin: 10rpx;
+}
+.move-info{
+		margin: 10rpx;
+}
+.super-hot{
+		margin-top: 12rpx;
+		padding: 20rpx;
+}
+.hot-title-wapper{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+}
+.hot-icon{
+		width: 30rpx;
+		height: 30rpx;
+		margin-top: 10rpx;
+		margin-left: 10rpx;
+}
+.hot-title{
+		font-size: 18px;
+		color: #a1a1a1;
+		margin-left: 20rpx;
+}
+.desc{
+		text-indent:2em;
+		letter-spacing:4rpx;
+		margin-top: 10rpx;
+		font-size: 15px;
+}
+

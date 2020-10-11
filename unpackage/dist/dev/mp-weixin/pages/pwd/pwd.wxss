@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+page {
+		min-height: 100%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		font-size: 14px;
+}
+input,
+	textarea,
+	button {
+		font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* 原生组件模式下需要注意组件外部样式 */
+m-input {
+		width: 100%;
+		/* min-height: 100%; */
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+}
+
